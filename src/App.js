@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components";
+
+import Header from "./Components/Header";
+import LatestNews from "./Components/LatestNews";
+import Main from "./Components/Main";
+import TopNews from "./Components/TopNews";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Header/>
+      <Main />
+      <LatestNews/>
+      <TopNews/>
+    </Container>
   );
 }
 
 export default App;
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+`
