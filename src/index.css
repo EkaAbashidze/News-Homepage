@@ -8,3 +8,7 @@
 body {
   margin: 0;
 }
+
+.dark {
+  background-color: rgba(0,0,26,0.5);
+}
