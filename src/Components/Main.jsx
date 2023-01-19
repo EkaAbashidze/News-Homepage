@@ -39,7 +39,7 @@ const Container = styled.div`
         grid-template-rows: 300px 182px;
         grid-column-gap: 30px;
         grid-row-gap: 30px;
-        margin-bottom: 72px;
+        margin-bottom: 0px;
     }
 
 `

@@ -39,5 +39,6 @@ const TopRow = styled.div`
     @media screen and (min-width: 1440px) {
       display: flex;
       column-gap: 30px;
+      margin-bottom: 72px;
     }
 `;
