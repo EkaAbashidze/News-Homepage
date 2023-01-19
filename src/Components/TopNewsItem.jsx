@@ -39,7 +39,12 @@ const Headline = styled.h3`
     line-height: 24px;
     padding-top: 12px;
     padding-bottom: 9px;
-    `;
+    cursor: pointer;
+    transitiongit : color .3s ease;
+    &:hover {
+        color: #f15d51;
+    }
+`;
 
 const Para = styled.p`
     color: #5e607a;

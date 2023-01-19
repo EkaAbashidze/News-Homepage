@@ -99,11 +99,15 @@ const MenuItem = styled.li`
     font-size: 18px;
     line-height: 24px;
     color: #00001a;
+    transition: color .3s ease;
     @media screen and (min-width: 1440px) {
         color: #5e607a;
         font-weight: 400;
         font-size: 15px;
         line-height: 26px;
+    }
+    &:hover {
+        color: #F15D51;
     }
 `;
 

@@ -23,7 +23,6 @@ export default function Main() {
             <Button>read more</Button>
         </Description>
 
-
         </Container>
     )
 }
@@ -105,5 +104,12 @@ const Button = styled.button`
     border: 0;
     width: 185px;
     height: 48px;
+    transition: background-color .3s ease;
     cursor: pointer;
+    &:hover {
+        background-color: #00001a;
+    }
+    &:active {
+        transform: scale(.98);
+    }
 `;

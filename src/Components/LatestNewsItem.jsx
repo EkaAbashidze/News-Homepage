@@ -15,6 +15,11 @@ const Headline = styled.h3`
     font-weight: 800;
     font-size: 20px;
     line-height: 24px;
+    cursor: pointer;
+    transition: color .3s ease;
+    &:hover {
+        color: #E9AA52;
+    }
 `;
 
 const Para = styled.h3`
